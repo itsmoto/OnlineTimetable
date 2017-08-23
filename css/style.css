@@ -1,0 +1,209 @@
+*{  
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    color: white;
+    width: 100%;
+    height: 50px;
+    background: #3C8DBC;
+}
+article{
+    padding-top: 30px;
+    width: 100%;
+    min-height: 548px;
+    background: #E4E7EC;
+    border-bottom: solid #008000 1px;
+     overflow: hidden;
+}
+footer{
+    padding-top: 15px;
+    height: 50px;
+    text-align: center;
+     background: #E4E7EC;
+}
+
+.btn-timetable{
+    background: #F2E34B;
+    color: black;
+    font-weight: bold;
+    border:solid 0.5px #9a9a9a;
+}
+.btn-timetable:hover{
+    background: #F2E34B;
+    border:solid 0.5px #7a7a7a;
+   
+    font-weight: bold;
+}
+.timetable-head {
+    background: #899cfb;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.error{
+    color: red;
+}
+
+.table-wrap{
+    background: white;
+    padding: 10px;
+    width: 50%;
+    min-width: 300px;
+    cursor: pointer;
+}
+
+.box-part{
+        overflow: hidden;
+        padding-top: 10px;
+        margin-bottom:15px;
+        box-shadow: -1px 1px 3px #a7a7a7;
+}
+
+/*Start of Navigattion menu*/
+nav ul{
+    margin-left: 10px;
+    list-style-type: none;
+    width: 234px;
+}
+
+nav ul li{
+    text-align: center;
+    border-bottom: 0.5px solid #008000;/*#cecece;*/
+
+
+}
+nav ul li:first-child{
+    border-top:  0.5px solid  #008000;/*#cecece;*/
+}
+
+nav ul li:last-child{
+    background: #C0C0C0;
+    border-top: 1px solid  #008000;/*#cecece;*/
+    border-bottom: none;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    background: #3C8DBC;
+    margin-bottom: 2px;
+   
+}
+nav ul li a.active{
+    color: black;
+    background: none;
+}
+nav ul li a:hover{
+    color: black;
+    background: #f1f1f1;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+
+nav ul li i{
+    float: left;
+}
+/*End of Navigattion menu*/
+.bg-white{
+     box-shadow: -1px 1px 3px #a7a7a7;
+    padding: 10px;
+    background: white;
+   
+}
+.bg-white th{
+    text-align: center;
+}
+
+.edit{
+    padding: 0 10px 0px 10px;
+    font-size: 17px;
+}
+.no-error{
+    color: green;
+}
+.timetable-brand {
+    float: left; 
+    width: 30%
+}
+.timetable-admin{
+     float: right; 
+     width: 100px; ; 
+     text-align: right;
+    
+}
+.timetable-admin .admin-link{
+    color:white;
+    text-decoration: none;
+     background: #76a3bd;
+     padding: 20px;
+}
+.timetable-admin .admin-link:hover{
+    color:white;
+    background: #73b2e0;
+    text-decoration: none;
+     
+}
+.timetable-admin div{
+    margin-top: 12px;
+}
+
+/*Start Admin hover link navigation*/
+.ul-admin{
+  margin-left: -104px;
+  margin-top: 20px;
+}
+.timetable-admin ul{
+    list-style-type: none;
+}
+ .ul-admin i{
+    float: left;
+}
+ .ul-admin{
+     z-index: 9999;
+    display:block; 
+    position: absolute;
+}
+ul li .ul-admin {
+  width: 200px;
+  display: none;
+}
+
+.ul-admin li{
+    text-align: center;
+    border-bottom: 0.5px solid #cecece;
+}
+
+.ul-admin li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    background: white;
+   
+}
+.ul-admin li a:hover{
+    background: #f5f5f5;
+}
+.ul-admin{
+  box-shadow: -1px 1px 3px #a7a7a7;
+}
+/*End Admin hover Navigation*/
+
+.feature-item{
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: none;
+}
+.feature-item i{
+    color: #3C8DBC;
+    font-size: 70px;
+}
+
