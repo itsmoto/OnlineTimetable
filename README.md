@@ -1,4 +1,4 @@
 # OnlineTimetable
-##Admin
-*username: kazimoto
-*password: 123
+## Admin
+* username: kazimoto
+* password: 123
